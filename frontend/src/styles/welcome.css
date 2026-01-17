@@ -1,0 +1,94 @@
+/* FULL PAGE CENTER */
+.welcome-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f2fb;
+}
+
+/* MAIN CARD */
+.welcome-card {
+  width: 900px;
+  height: 520px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* LEFT SIDE */
+.welcome-left {
+  width: 35%;
+  background-color: #8BDDE3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text h1 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+font-weight: 700;
+  
+}
+
+.welcome-text p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* RIGHT SIDE */
+.welcome-right {
+  width: 65%;
+  background-color: #5F8ECB;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGO */
+.main-logo {
+  border-radius: 50%;
+  width: 140px;
+  margin-top: -69px;
+  border: 1.5px solid #0e0000;
+}
+
+.title{
+  font-size: 18px;  
+  color:#F7FEFF;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+/* BUTTONS */
+.action-btn {
+  width: 230px;
+  padding: 10px;
+  margin: 14px 0px;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+
+  border-radius: 30px;
+  border: 1.5px solid #0e0000;
+  background-color: #F7FEFF;
+
+  color: #070000;
+  font-size: 18px;
+  
+  cursor: pointer;
+}
+
+/* BUTTON ICON */
+.btn-icon {
+  width: 25px;
+  height: 25px;
+}
