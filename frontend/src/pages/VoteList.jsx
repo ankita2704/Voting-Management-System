@@ -39,7 +39,7 @@ function VoteList() {
     };
 
     fetchCandidates();
-  }, []);
+  }, [setError]);
 
   const handleVote = async (candidateId) => {
     try {
