@@ -10,7 +10,7 @@ const partyLogos = {
 
 function VoteList() {
   const [candidates, setCandidates] = useState([]);
-  const [error, setError] = useState("");
+  const [setError] = useState("");
 
   useEffect(() => {
     const fetchCandidates = async () => {
